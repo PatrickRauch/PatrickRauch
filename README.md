@@ -1,140 +1,92 @@
-# Patrick Rauch
+# Patrick Emanuel Hirt Rauch
 
-### Infraestrutura • Redes • Automação • Linux • Desenvolvimento
+### DevOps & Infrastructure Engineer
 
-Construo e mantenho sistemas que precisam funcionar de verdade — de infraestrutura de servidores e redes a automações, aplicações web e ferramentas para Linux.
+**Linux • Virtualization • Networking • Security • Automation • Data Center**
 
-Meu trabalho envolve principalmente **infraestrutura, redes, servidores Linux, automação e desenvolvimento de sistemas**.
-
----
-
-## 🛠️ O que eu faço
-
-* 🖥️ **Infraestrutura & Linux**
-
-  * Debian / Arch Linux
-  * Proxmox
-  * Virtualização e servidores
-  * ZFS e armazenamento
-  * Monitoramento e observabilidade
-
-* 🌐 **Redes**
-
-  * MikroTik
-  * Cisco
-  * VLANs
-  * BGP
-  * DNS / Unbound / Pi-hole
-  * Redes 1/2.5/10 GbE
-
-* 🔐 **Segurança**
-
-  * Wazuh
-  * Suricata
-  * Firewall
-  * WAF
-  * Monitoramento e análise de eventos
-
-* 🤖 **Automação**
-
-  * n8n
-  * Node-RED
-  * Home Assistant
-  * APIs e webhooks
-  * Integrações entre sistemas
-
-* 💻 **Desenvolvimento**
-
-  * JavaScript / TypeScript
-  * Python
-  * Shell
-  * Next.js
-  * APIs REST
-  * Sistemas web
-
-* 📡 **Streaming & serviços**
-
-  * Icecast
-  * GStreamer
-  * PipeWire
-  * Infraestrutura de áudio e streaming
+Construo e opero infraestrutura de TI, atuando desde **servidores e virtualização até redes, segurança, automação, monitoramento e infraestrutura física**.
 
 ---
 
-## 🚀 Projetos públicos
+## 🧩 Core Skills
 
-### [aic8800-linux-installer](https://github.com/PatrickRauch/aic8800-linux-installer)
-
-Instalador e ferramenta de diagnóstico para adaptadores Wi-Fi AIC8800 no Linux.
-
-Automatiza dependências, compilação do driver, aplicação de patches para kernels recentes, firmware, `usb_modeswitch` e coleta de logs para diagnóstico.
-
-**Shell · Linux · DKMS · USB · Wi-Fi**
-
----
-
-### Infraestrutura & Homelab
-
-Grande parte do meu trabalho envolve infraestrutura própria e ambientes de laboratório:
-
-* Proxmox
-* Linux
-* MikroTik
-* Cisco
-* VLANs
-* BGP
-* DNS
-* ZFS
-* monitoramento
-* automação
-
-Nem todo projeto pode ser publicado por questões de segurança, privacidade ou por fazer parte de ambientes de produção.
+| Área                  | Tecnologias / Conhecimentos                            |
+| --------------------- | ------------------------------------------------------ |
+| 🐧 **Linux**          | Debian · Ubuntu · Arch · Shell · System Administration |
+| 🖥️ **Virtualização** | Proxmox VE · HA · Clusters · ZFS                       |
+| 🌐 **Networking**     | MikroTik · Cisco · VLAN · Routing · DNS · VPN          |
+| 🔐 **Security**       | Sophos · Wazuh · Suricata · SIEM · Firewall            |
+| 🤖 **Automation**     | Bash · Python · n8n · Node-RED · Home Assistant        |
+| 📊 **Monitoring**     | Prometheus · Grafana · Uptime Kuma · Logs              |
+| 💾 **Storage**        | ZFS · Backup · Replication · NAS                       |
+| ⚡ **Infrastructure**  | UPS · Batteries · BMS · Power Systems                  |
+| 🐳 **Containers**     | Docker · Docker Compose                                |
+| 🌍 **Web / DevOps**   | CI/CD · APIs · Next.js · JavaScript / TypeScript       |
 
 ---
 
-## ⚙️ Tecnologias
+## 🏗️ Infrastructure
 
-```text
-Linux          Debian · Arch · Proxmox
-Networking     MikroTik · Cisco · BGP · VLAN · DNS
-Security       Wazuh · Suricata · Firewall · WAF
-Automation     n8n · Node-RED · Home Assistant
-Development    TypeScript · JavaScript · Python · Shell
-Web            Next.js · REST APIs
-Streaming      Icecast · GStreamer · PipeWire
-Storage        ZFS · SSD · HDD
+```mermaid
+flowchart LR
+    NET["🌐 Network"]
+    FW["🔐 Firewall"]
+    VM["🖥️ Proxmox"]
+    ST["💾 ZFS / Storage"]
+    MON["📊 Monitoring"]
+    SEC["🛡️ Security"]
+    AUTO["🤖 Automation"]
+
+    NET --> FW
+    FW --> VM
+    VM --> ST
+    VM --> MON
+    VM --> SEC
+    MON --> AUTO
 ```
+
+**Do projeto à operação:** infraestrutura física → redes → virtualização → serviços → segurança → monitoramento → automação.
+
+---
+
+## 🚀 Featured
+
+| Projeto                        | Descrição                                                |
+| ------------------------------ | -------------------------------------------------------- |
+| 📡 **AIC8800 Linux Installer** | Driver, firmware, DKMS e diagnóstico para Linux          |
+| 🖥️ **Infrastructure Lab**     | Laboratório de virtualização, redes, storage e segurança |
+| 🌐 **Network Infrastructure**  | MikroTik, VLANs, routing, firewall e DNS                 |
+| 📊 **Monitoring & Security**   | Observabilidade, SIEM, logs e alertas                    |
+| 🤖 **Automation**              | n8n, Node-RED, APIs e automação operacional              |
+
+🔗 **[Portfólio & documentação](https://patrickhirtrauch.com/)**
 
 ---
 
 ## 📊 GitHub
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PatrickRauch\&show_icons=true\&hide_border=true\&theme=transparent)](https://github.com/PatrickRauch)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=PatrickRauch\&show_icons=true\&hide_border=true\&theme=transparent)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PatrickRauch\&layout=compact\&hide_border=true\&theme=transparent)](https://github.com/PatrickRauch)
-
----
-
-## 🧠 Atualmente
-
-Trabalhando em projetos envolvendo:
-
-* infraestrutura e gerenciamento de servidores
-* automação de processos
-* redes e serviços de alta disponibilidade
-* sistemas de cache distribuído
-* aplicações web
-* IA e processamento local
-* monitoramento e observabilidade
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PatrickRauch\&layout=compact\&hide_border=true\&theme=transparent)
 
 ---
 
-## 📫 Contato
+## 🧠 Engineering Focus
 
-🌐 [patrickhirtrauch.com](https://patrickhirtrauch.com)
-
-💻 [github.com/PatrickRauch](https://github.com/PatrickRauch)
+```text
+Infrastructure     ████████████████████
+Networking         ████████████████████
+Linux              ████████████████████
+Virtualization     ████████████████████
+Automation         ███████████████████░
+Security           ██████████████████░░
+Monitoring         ██████████████████░░
+Development        ███████████████░░░░░
+```
 
 ---
 
-> **Build it. Automate it. Monitor it.**
+### 🔗 Links
+
+**Website:** https://patrickhirtrauch.com
+**GitHub:** https://github.com/PatrickRauch
